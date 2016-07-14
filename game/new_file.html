@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/loaders.css"/>
+		<style type="text/css">
+		html,body{
+			width: 100%;
+			height: 100%;
+		}
+		.lod{
+			width: 100%;
+			height: 100%;
+			background: white;
+			color: white;
+			text-align: center;
+			position: absolute;
+			font-size: 30px;
+			/*opacity: 0.5;*/
+			background: #C2CAC8;
+			position:absolute;
+			z-index:9999999999999;
+
+		}
+		.lod .loader{
+			width: 72px;
+			height: 25px;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			top: 0;
+			right: 0;
+			margin: auto;
+		}
+		.img{
+			width: 129px;
+			height: 25px;
+			background: url(images/loading01.png);
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			top: 0;
+			right: 0;
+			margin: auto;
+		}
+		canvas{
+			display: block;
+			width: 100%;
+			height: 100%;
+			position:absolute;
+		}
+	input{
+		background:#C2CAC8;
+		border:1px solid #333;
+		border-radius:10px;
+		outline:none;
+		font-size:30px;
+	}
+		
+	#begin{
+		width:100%;
+		height:100%;
+		background:#C2CAC8;
+		margin:0 auto;
+		text-align:center;
+		position: absolute;
+	}
+	#begin img{width:100%;}
+	#begin input{
+		width:50%;
+		height:50px;
+		margin-bottom:10px
+	}
+	#text{
+		font-size:18px;
+		text-indent:2em;
+	}
+	#p1{
+		position: absolute;
+		left:5%;
+		top:2%;
+		z-index:9999;
+		font-size:20px;
+		display: none;
+	}
+	#stop{
+		width:40px;
+		position: absolute;
+		left:6%;
+		top:7%;
+		z-index:999;
+		display: none;
+	}
+	#end{
+		width:50%;
+		height:180px;
+		border:1px solid;
+		border-radius:5px;
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:auto;
+		text-align:center;
+		display: none;
+		z-index: 9999;
+	}
+	#p2{line-height: 2em;font-size:20px}
+	#end input{
+		width:70%;
+		height:30px;
+		margin-top:10px;
+		font-size:18px
+	}
+	#cont{
+		width:45%;
+		height:50px;
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:auto;
+		display: none;
+	}
+		
+	ol{
+		width:150px;
+		height:55%;
+		position:absolute;
+		top:0;left:0;right:0;bottom:0;
+		margin:auto;
+		z-index: 999999;
+		background:silver;
+		padding-left:20px;
+		display: none;
+	}
+	ol li{
+		margin:10px;
+	}
+	button{
+		border:3px solid silver;
+		border-radius:8px;
+		position:absolute;
+		top:24%;
+		left:66%;
+		font-size:16px;
+		z-index:999999999999;
+		outline:none;
+		display: none;
+		
+	}
+		</style>
+	</head>
+	<body>
+		<div class="lod">
+			<div class="img"></div>
+		</div>
+		<canvas id="" width="320" height="568"></canvas>
+		
+		<div id="begin">
+		<img src="images/1.png" />
+		<input id="text" type="text" placeholder="请输入名字"/>
+		<input id="btn1" type="button" value="开始游戏">
+	</div>
+
+	<img id="stop" src="images/game_pause_hl.png" />
+
+	<p id="p1">分数　<span id="scole">0</span></p>
+
+	<div id="end">
+		<p id="p2">成绩　<span id="scoles">0</span></p>
+		<input id="cool" type="button"	value="提交成绩" />
+		<input id="phb" type="button"	value="查看排行" />
+		<input id="btn2" type="button"  value="重新开始">
+	</div>
+	
+	<input id="cont" type="button" value="继续游戏" />
+	
+	<ol id="ol">
+		<li>唐威0000</li>
+	</ol>
+	<button>X</button>
+		<audio src="source/game_music.mp3" ></audio>
+		<audio src="source/bullet.mp3"></audio>
+		<audio src="source/enemy1_down.mp3"></audio>
+		<audio src="source/enemy2_down.mp3"></audio>
+		<audio src="source/enemy2_out.mp3"></audio>
+		<audio src="source/enemy3_down.mp3"></audio>
+		<audio src="source/game_over.mp3"></audio>
+
+	</body>
+	<script src="js/bj.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bg.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/hero.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bullet.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/foe.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+	
+</html>
