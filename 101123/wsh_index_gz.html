@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<style>
+	*{margin:0px;padding:0px;}
+	.wrap{
+		width:100%;
+		max-width:980px;
+		margin:0 auto;
+	}
+	.header{
+		position: relative;
+		text-align: center;
+		background:#48382b;
+		height:80px;
+		line-height: 80px;
+	}
+	.header h3{
+		color:white;
+		font-size:22px;
+	}
+	.header img{
+		position: absolute;
+		top:30%;
+		left:2%;
+		cursor:pointer;
+	}
+	.content{
+		width:90%;
+		margin:50px auto;
+	}
+	.content .div1{
+		height:140px;
+		border-bottom:1px solid #ccc;
+		position:relative;
+		margin-top:20px;
+	}
+	.content .div1 img{
+		width:30%;
+		position: absolute;
+		top:0px;
+		left:0px;
+	}
+	.content .div1 div{
+		width:65%;
+		position: absolute;
+		top:0px;
+		left:35%;
+		line-height:2em;
+	}
+	.content .div1 div b{
+		position: absolute;
+		right:0px;
+		top:0px;
+		font-size:14px;
+	}
+	.content .div1 input{
+		border:1px solid green;
+		color:green;
+		width:70px;
+		height:30px;
+		border-radius:8px;
+		background:white;
+		position: absolute;
+		right:0px;
+		bottom:-33%;
+		outline:none;
+	}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<img src="img/gt.png" />
+			<h3>关注的人</h3>
+		</div>
+		<div class="content">
+			<div class="div1">
+				<img src="img/tou1.png" />
+				<div>
+					<h4>只若初见</h4>
+					<b>0.01km　1分钟</b>
+					<p><span>女</span>　<span>23</span>岁　<span>北京 大兴区</span></p>
+					<span>蛋炒饭饭炒蛋,两个鸡蛋一碗饭</span>
+					<input type="button" value="取消关注">
+				</div>
+			</div>
+			<div class="div1">
+				<img src="img/tou2.png" />
+				<div>
+					<h4>唯见初心</h4>
+					<b>0.5km　2分钟</b>
+					<p><span>女</span>　<span>22</span>岁　<span>北京 丰台区</span></p>
+					<span>土豆爱上回锅肉</span>
+					<input type="button" value="取消关注">
+				</div>
+			</div>
+			<div class="div1">
+				<img src="img/tou3.png" />
+				<div>
+					<h4>宁静致远</h4>
+					<b>0.09km　5分钟</b>
+					<p><span>女</span>　<span>24</span>岁　<span>北京 石景山区</span></p>
+					<span>柠檬与黄鳝的碰撞,你敢想象</span>
+					<input type="button" value="取消关注">
+				</div>
+			</div>
+			<div class="div1">
+				<img src="img/tou4.png" />
+				<div>
+					<h4>上善若水</h4>
+					<b>1.8km　10分钟</b>
+					<p><span>女</span>　<span>22</span>岁　<span>北京 门头沟区</span></p>
+					<span>不会做饭的医生不是好设计师</span>
+					<input type="button" value="取消关注">
+				</div>
+			</div>
+			<div class="div1">
+				<img src="img/tou5.png" />
+				<div>
+					<h4>影随风</h4>
+					<b>100m　30分钟</b>
+					<p><span>男</span>　<span>25</span>岁　<span>北京 大兴区</span></p>
+					<span>是谁动了我的窝头</span>
+					<input type="button" value="取消关注">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+window.onload = function()
+{
+	var content = document.getElementsByClassName("content")[0];
+	var aBtn = content.getElementsByTagName("input");
+	
+
+
+	for(var i=0;i<aBtn.length;i++){
+		aBtn[i].addEventListener("click",function(){
+			this.parentNode.parentNode.remove(this.parentNode);
+			event.preventDefault();
+
+		})
+	}
+
+}
+</script>
+</html>
+
+
+
+
+
+
+
+
+

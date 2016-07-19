@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>Document</title>
+	<style>
+	*{margin:0px;padding:0px;}
+	html,body{
+		font-size:14px;
+	}
+	a{
+		color:#333;
+		text-decoration: none;
+	}
+	.wrap{
+		width:100%;
+		max-width:980px;
+		margin:0 auto;
+	}
+	.header{
+		position:relative;
+		border-bottom:1px solid;
+	}
+	.header>img{
+		width:100%;
+		vertical-align:middle;
+	}
+	.header .bg{
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.5);
+		position: absolute;
+		top:0px;
+		left:0px;
+	}
+	.header .bg>div{
+		width:90%;
+		position:absolute;
+		text-align:center;
+		top:0px;
+		left:0px;
+		right:0px;
+		bottom:0px;
+		margin:auto;
+		color:white;
+	}
+	.header .bg>div>img{
+		width:30%;
+		margin-top:10%;
+	}
+	.header .bg>div>p{
+		line-height:3em;
+	}
+	.header .bg .bbs_1{
+		overflow:hidden;
+		border-top:1px solid white;
+		border-bottom:1px solid white;
+	}
+	.header .bg .bbs_2{
+		border-bottom:1px solid white;
+		overflow:hidden;
+	}.header .bg .bbs_1 span{
+		color:red;
+	}
+	.header .bg .bbs_2 span{
+		color:orange;
+	}
+	.header .bg .bbs_1 div{
+		float:left;
+		width:49%;
+		text-align:center;
+		margin:5px 0;
+		line-height:2em;
+	}
+	.header .bg .bbs_1 div:nth-child(1){
+		border-right:2px solid white;
+	}
+	.header .bg .bbs_2 div{
+		float:left;
+		width:32%;
+		text-align:center;
+		margin:5px 0;
+		line-height: 2em;
+	}
+	.header .bg .bbs_2 div:nth-child(2){
+		border-left:2px solid white;
+		border-right:2px solid white;
+	}
+	.header .bg .bbs_2 div:nth-child(2) span{
+		color:blue;
+	}
+	.content_1{
+		border-bottom:1px solid;
+	}
+	.content_1 span{
+		padding-left:2em;
+		line-height:3em;
+	}
+	.content_1 img{
+		float:right;
+		margin:10px 10px 0 0;
+	}
+	.content_2{
+		text-align:center;
+		overflow:hidden;
+		border-bottom:1px solid;
+	}
+	.content_2 a{
+		margin:10px 0;
+		display:inline-block;
+		width:23%;
+	}
+	.content_2 a p{
+		line-height:2em;
+	}
+	ul {
+
+	}
+	ul li{
+		list-style:none;
+		line-height: 4em;
+		border-bottom:1px solid;
+	}
+	ul li .content_nav{
+		margin:0 2em;
+		vertical-align:middle;
+	}
+
+	ul li .content_nav_2{
+		float:right;
+		margin:21px 10px 0 0;
+	}
+	ul li a{
+		vertical-align:middle;
+	}
+	</style>
+
+
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+				<img src="img/bg_1.png" />
+				<div class="bg">
+					<div>
+						<img src="img/touxiang.png" />
+						<p>宝宝别闹</p>
+						<div class="bbs">
+							<div class="bbs_1">
+								<div>关注　<span>5</span></div>
+								<div>粉丝　<span>99</span></div>
+							</div>	
+							<div class="bbs_2">
+								<div>收藏　<span>6</span></div>
+								<div>消息　<span>8</span></div>
+								<div>可用积分 <span>1000</span></div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="content">
+				<div class="content_1">
+					<span>全部订单</span>
+					<img src="img/tit.png" >
+				</div>
+
+				<div class="content_2">
+					<a href="javascript:;">
+						<img src="img/pay.png" />
+						<p>代付款</p>
+					</a>
+					<a href="javascript:;">
+						<img src="img/fahuo.png" />
+						<p>代发货</p>
+					</a>
+					<a href="javascript:;">
+						<img src="img/shouhuo.png" />
+						<p>待收货</p>
+					</a>
+					<a href="javascript:;">
+						<img src="img/say.png" />
+						<p>待评价</p>
+					</a>
+				</div>
+
+				<ul>
+					<li>
+						<img class="content_nav" src="img/shopping.png" />
+						<a href="javascript:;">我的购物车</a>
+						<img class="content_nav_2" src="img/tit.png" />
+					</li>
+					<li>
+						<img class="content_nav" src="img/vip.png" />
+						<a href="javascript:;">我的会员</a>
+						<img class="content_nav_2" src="img/tit.png" />
+					</li>
+					<li>
+						<img class="content_nav" src="img/tel.png" />
+						<a href="javascript:;">客服热线</a>
+						<img class="content_nav_2" src="img/tit.png" />
+					</li>
+					<li>
+						<img class="content_nav" src="img/chuan.png" />
+						<a href="javascript:;">我的上传</a>
+						<img class="content_nav_2" src="img/tit.png" />
+					</li>
+					<li>
+						<img class="content_nav" src="img/set.png" />
+						<a href="javascript:;">我的设置</a>
+						<img class="content_nav_2" src="img/tit.png" />
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		
+	</div>
+</body>
+</html>
