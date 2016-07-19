@@ -1,0 +1,93 @@
+.con{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.con .t{
+  width: 100%;
+  border-bottom: 0.05rem solid #ebeae4;
+}
+.con .t img{
+  width: 100%;
+}
+.con .c{
+  border-bottom: 0.05rem solid #ebeae4;
+  padding: 5%;
+}
+.con .c div{
+  width: 48%;
+}
+.con .c div img{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+.con .b .l{
+  width: 40%;
+  position: relative;
+}
+.con .b .r{
+  width: 60%;
+}
+.con .b .r .t{
+  position: relative;
+}
+.con .b .r .b div{
+  width: 50%;
+  position: relative;
+}
+.con .p{
+  color: #6ab439;
+  font-family: '黑体';
+  font-size: 0.16rem;
+  line-height: 0.22rem;
+}
+
+.con .b .p{
+margin-left: 5%;
+line-height: 0.3rem;
+}
+.c p{
+  color: #999;
+  line-height: 0.3rem;
+}
+.c span{
+  color: #fff;
+  background: #292929;
+  padding: 0.05rem;
+  border-radius: 5px;
+  line-height: 0.22rem;
+}
+.c sp{
+  color: #292929;
+  padding: 0.02rem;
+}
+.c st{
+  color: red;
+  float: right;
+}
+.p span{
+  color: #ccc;
+  float: right;
+  margin-right: 5%;
+}
+.b .l div{
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  padding: 5%;
+  line-height: 0.15rem;
+  box-shadow: 1px 45px 30px rgba(33, 32, 31, 0.3) inset;
+}
+.b .r .t div,.con .b .r .b div div{
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  padding: 5%;
+  line-height: 0.15rem;
+  box-shadow: 1px 30px 30px rgba(33, 32, 31, 0.3) inset;
+}

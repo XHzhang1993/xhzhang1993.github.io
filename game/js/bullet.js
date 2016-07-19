@@ -3,7 +3,7 @@ function Bullet(w,h){
 	oB.w=w;
 	oB.h=h;
 	oB.img=oArr[2];
-	oB.delay=10;
+	oB.delay=5;
 	oB.di=0;//延时
 	oB.obs=[];
 	oB.speed=5;

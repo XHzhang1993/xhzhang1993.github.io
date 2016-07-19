@@ -1,0 +1,81 @@
+.top{
+  height: 0.30rem;
+  width: 100%;
+  background: #48382b;
+  position: fixed;
+  top: 0;
+  padding: 0.1rem;
+}
+select{
+  color: #e8e8e7;
+  font-size: 0.18rem;
+  background-color: rgba(151, 122, 173, 0);
+  background-image: url(../xhimg/LOGO.png);
+  background-position: -1.65rem -0.3rem;
+  border: 0;
+  width: 18%;
+  min-width: 63px;
+  background-size: 2.3rem;
+}
+input{
+  background-color: #403228;
+  border-radius: 0.06rem;
+  height: 0.25rem;
+  width: 60%;
+  box-shadow: 0px 2px 5px rgba(33, 32, 31, 0.5) inset;
+  border: 0px solid rgba(4, 3, 6, 0.45);
+  border-bottom: 1px solid #7e6e57;
+  margin-left: 0.1rem;
+  background-size: 2.3rem;
+  background-image: url(../xhimg/LOGO.png);
+  background-repeat: no-repeat;
+  background-position: -1.65rem -0.3rem;
+}
+.top div{
+  width: 0.45rem;
+  height: 0.3rem;
+  background-size: 2.3rem;
+  background-image: url(../xhimg/LOGO.png);
+  background-repeat: no-repeat;
+  background-position: -0.65rem -0.3rem;
+}
+@media screen and (max-width: 420px) {
+  .top{
+      height: 0.30rem;
+  }
+  .top div{
+    width: 15%;
+    height: 0.3rem;
+    background-size: 2.3rem;
+    background-position: -0.59rem -0.15rem;
+  }
+  input{
+    width: 60%;
+    background-size: 2.3rem;
+    background-position: -1.98rem -0.15rem;
+  }
+  select{
+    background-size: 2.8rem;
+    background-position: -1.22rem -0.22rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .top{
+      height: 0.30rem;
+  }
+  .top div{
+    width: 0.45rem;
+    height: 0.3rem;
+    background-size: 2.3rem;
+    background-position: -0.59rem -0.15rem;
+  }
+  input{
+    background-size: 2.3rem;
+    background-position: -1.98rem -0.15rem;
+  }
+  select{
+    background-size: 2.8rem;
+    background-position: -1.22rem -0.22rem;
+  }
+}
