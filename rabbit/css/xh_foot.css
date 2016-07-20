@@ -13,12 +13,12 @@ html{
   clear: both;
 }
 .foot {
-  height: 0.92rem;
+  height: 0.4rem;
   width: 100%;
   background: #48382b;
   position: fixed;
   bottom: 0;
-  font-size: 0.16rem;
+  font-size: 0.12rem;
 }
 .foot div{
   width: 20%;
@@ -27,44 +27,45 @@ html{
   color: #c3ad88;
 }
 .foot div div{
-  width: 0.48rem;
-  height: 0.38rem;
-  margin:0.10rem auto;
+  width: 0.28rem;
+  height: 0.22rem;
+  margin:0.02rem auto;
   background-image: url(../xhimg/LOGO.png);
-  background-size: 3.54rem;
+  background-size: 2rem;
 
 }
 
 .foot div:nth-child(1) div{
-  background-position-y: -1.07rem;
-  background-position-x: -0.08rem;
+  background-position-y: -0.6rem;
+  background-position-x: -0.05rem;
 }
 
 .foot div:nth-child(2) div{
-  background-position-y: -1.07rem;
-  background-position-x: -0.81rem;
+  background-position-y: -0.6rem;
+  background-position-x: -0.45rem;
 }
 .foot div:nth-child(3) div{
-  background-position-y: -1.07rem;
-  background-position-x: -1.50rem;
+  background-position-y: -0.6rem;
+  background-position-x: -0.85rem;
 
 }
 .foot div:nth-child(4) div{
-  background-position-y: -1.07rem;
-  background-position-x: -2.31rem;
+  background-position-y: -0.6rem;
+  background-position-x: -1.3rem;
 }
 .foot div:nth-child(5) div{
-  background-position-y: -1.07rem;
-  background-position-x: -3.01rem;
+  background-position-y: -0.6rem;
+  background-position-x: -1.71rem;
 }
 .foot .select{
-  background-position-y: -1.72rem !important;
+  background-position-y: -1rem !important;
     color: #6ab439 !important;
 }
 .foot .select1{
     color: #6ab439 !important;
 }
-@media screen and (max-width: 420px) {
+
+/*@media screen and (max-width: 420px) {
   .foot {
     height: 0.72rem;
   }
@@ -145,4 +146,4 @@ html{
     background-position-y: -1.1rem !important;
       color: #6ab439 !important;
   }
-}
+}*/
