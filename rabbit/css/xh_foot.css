@@ -13,7 +13,7 @@ html{
   clear: both;
 }
 .foot {
-  height: 0.4rem;
+  height: 0.44rem;
   width: 100%;
   background: #48382b;
   position: fixed;
@@ -29,7 +29,7 @@ html{
 .foot div div{
   width: 0.28rem;
   height: 0.22rem;
-  margin:0.02rem auto;
+  margin:0.03rem auto;
   background-image: url(../xhimg/LOGO.png);
   background-size: 2rem;
 
@@ -58,7 +58,7 @@ html{
   background-position-x: -1.71rem;
 }
 .foot .select{
-  background-position-y: -1rem !important;
+  background-position-y: -0.97rem !important;
     color: #6ab439 !important;
 }
 .foot .select1{
