@@ -1,6 +1,7 @@
+
 .con{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.4rem;
+  padding-bottom:0.44rem;
 }
 .con .t{
   width: 100%;
@@ -23,11 +24,11 @@ img{
   width: 100%;
 }
 .con .b .l{
-  width: 40%;
+  width: 39.5%;
   position: relative;
 }
 .con .b .r{
-  width: 60%;
+  width: 60.5%;
 }
 .con .b .r .t{
   position: relative;
@@ -50,13 +51,15 @@ line-height: 0.3rem;
 .c p{
   color: #999;
   line-height: 0.3rem;
+  font-size: 0.12rem;
 }
 .c span{
   color: #fff;
   background: #292929;
   padding: 0.05rem;
-  border-radius: 5px;
+  border-radius: 0.05rem;
   line-height: 0.22rem;
+  font-size: 0.12rem;
 }
 .c sp{
   color: #292929;
@@ -79,7 +82,8 @@ line-height: 0.3rem;
   color: #fff;
   padding: 5%;
   line-height: 0.15rem;
-  box-shadow: 1px 45px 30px rgba(33, 32, 31, 0.3) inset;
+  font-size: 0.12rem;
+  box-shadow: 0.01rem 0.45rem 0.30rem rgba(33, 32, 31, 0.3) inset;
 }
 .b .r .t div,.con .b .r .b div div{
   width: 90%;
@@ -88,6 +92,7 @@ line-height: 0.3rem;
   top: 0;
   color: #fff;
   padding: 5%;
+  font-size: 0.12rem;
   line-height: 0.15rem;
-  box-shadow: 1px 30px 30px rgba(33, 32, 31, 0.3) inset;
+  box-shadow: 0.01rem 0.30rem 0.30rem rgba(33, 32, 31, 0.3) inset;
 }

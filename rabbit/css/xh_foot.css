@@ -1,17 +1,7 @@
 html{
   font-size: 100px;
 }
-.fl{
-    float: left;
-}
-.fr{
-    float: right;;
-}
-.clear:after{
-  content: '';
-  display: block;
-  clear: both;
-}
+
 .foot {
   height: 0.44rem;
   width: 100%;
@@ -19,6 +9,7 @@ html{
   position: fixed;
   bottom: 0;
   font-size: 0.12rem;
+  z-index: 10;
 }
 .foot div{
   width: 20%;
@@ -35,25 +26,25 @@ html{
 
 }
 
-.foot div:nth-child(1) div{
+.foot a:nth-child(1) div div{
   background-position-y: -0.6rem;
   background-position-x: -0.05rem;
 }
 
-.foot div:nth-child(2) div{
+.foot a:nth-child(2) div div{
   background-position-y: -0.6rem;
   background-position-x: -0.45rem;
 }
-.foot div:nth-child(3) div{
+.foot a:nth-child(3) div div{
   background-position-y: -0.6rem;
   background-position-x: -0.85rem;
 
 }
-.foot div:nth-child(4) div{
+.foot a:nth-child(4) div div{
   background-position-y: -0.6rem;
   background-position-x: -1.3rem;
 }
-.foot div:nth-child(5) div{
+.foot a:nth-child(5) div div{
   background-position-y: -0.6rem;
   background-position-x: -1.71rem;
 }
@@ -65,85 +56,56 @@ html{
     color: #6ab439 !important;
 }
 
-/*@media screen and (max-width: 420px) {
-  .foot {
-    height: 0.72rem;
-  }
-
-  .foot div div{
-    width: 0.48rem;
-    height: 0.35rem;
-    margin:0.08rem auto;
-    background-image: url(../xhimg/LOGO.png);
-    background-size: 3rem;
-    font-size: 0.14rem;
-  }
-  .foot div:nth-child(1) div{
-    background-position-y: -0.9rem;
-    background-position-x: -0.03rem;
-  }
-
-  .foot div:nth-child(2) div{
-    background-position-y: -0.9rem;
-    background-position-x: -0.64rem;
-  }
-  .foot div:nth-child(3) div{
-    background-position-y: -0.9rem;
-    background-position-x: -1.21rem;
-
-  }
-  .foot div:nth-child(4) div{
-    background-position-y: -0.9rem;
-    background-position-x: -2.51rem;
-  }
-  .foot div:nth-child(5) div{
-    background-position-y: -0.9rem;
-    background-position-x: -3.04rem;
-  }
-  .foot .select{
-    background-position-y: -1.45rem !important;
-      color: #6ab439 !important;
-  }
+@media screen and (min-width: 350px) {
+	html{
+	  font-size: 110px;
+	}
 }
-
-@media screen and (max-width: 420px) {
-  .foot {
-    height: 0.5rem;
-    font-size: 0.12rem;
-  }
-
-  .foot div div{
-    width: 0.35rem;
-    height: 0.30rem;
-    margin:0.03rem auto 0.00rem auto;
-    background-image: url(../xhimg/LOGO.png);
-    background-size: 2.3rem;
-
-  }
-  .foot div:nth-child(1) div{
-    background-position-y: -0.68rem;
-    background-position-x: -0.05rem;
-  }
-
-  .foot div:nth-child(2) div{
-    background-position-y: -0.68rem;
-    background-position-x: -0.97rem;
-  }
-  .foot div:nth-child(3) div{
-    background-position-y: -0.68rem;
-    background-position-x: -0.51rem;
-
-  }
-  .foot div:nth-child(4) div{
-    background-position-y: -0.68rem;
-    background-position-x: -1.49rem;
-  }
-  .foot div:nth-child(5) div{
-    background-position-y: -0.68rem;
-    background-position-x: -1.96rem;
-  }
-  .foot .select{
-    background-position-y: -1.1rem !important;
-      color: #6ab439 !important;
-  }
-}*/
+@media screen and (min-width: 400px) {
+	html{
+	  font-size: 120px;
+	}
+}
+@media screen and (min-width: 450px) {
+	html{
+	  font-size: 130px;
+	}
+}
+@media screen and (min-width: 500px) {
+	html{
+	  font-size: 140px;
+	}
+}
+@media screen and (min-width: 700px) {
+	html{
+	  font-size: 160px;
+	}
+}
+@media screen and (min-width: 850px) {
+	html{
+	  font-size: 170px;
+	}
+}
+@media screen and (min-width: 930px) {
+	html{
+	  font-size: 200px;
+	}
+}
+@media screen and (min-width: 1100px) {
+	html{
+	  font-size: 220px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	html{
+	  font-size: 240px;
+	}
+	body,.foot{
+		max-width: 1300px;
+		margin: auto;
+	}
+	.top{
+		max-width: 1270px;
+	}
+	
+}
