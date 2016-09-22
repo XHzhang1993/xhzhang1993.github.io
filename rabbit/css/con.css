@@ -3,13 +3,62 @@
   padding-top: 0.4rem;
   padding-bottom:0.44rem;
 }
-.con .t{
+
+/*.............................大图滚动*/
+.big-picture {
   width: 100%;
-  border-bottom: 0.05rem solid #ebeae4;
+  overflow: hidden;
+  position: relative;
 }
-.con .t img{
+.big-picture .div1{
+  position: absolute;
+  width: 49.333333%;
+  text-align: center;
+  z-index: 5;
+  color: #f8f6f5;
+  top: 40%;
+  left: 25%;
+}
+.big-picture .div1 p:nth-child(1){
+  font-size: 0.15rem;  
+  line-height: 0.4rem;
+}
+.big-picture .div1 p:nth-child(2){
+  width: 70%;
+  margin: 0 auto;
+  font-size: 0.15rem;
+  border: 1px solid white;
+  border-radius:0.08rem ;
+}
+.big-picture .inner{
+  width: 400%;
+  overflow: hidden;
+  position: relative;
+  left: 0;  
+}
+.big-picture img{
+  width: 25%;
+  float: left;
+}
+.big-picture .ul1{
   width: 100%;
+  max-width: 800px;
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  z-index: 5;
 }
+.big-picture .ul1 li{
+  width: 0.08rem;
+  height: 0.08rem;
+  border-radius: 100%;
+  display: inline-block;
+  opacity: 0.5;
+  background: gray;
+  
+}
+
+
 .con .c{
   border-bottom: 0.05rem solid #ebeae4;
   padding: 5%;
